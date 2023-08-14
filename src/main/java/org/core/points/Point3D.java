@@ -1,4 +1,4 @@
-package org.example.points;
+package org.core.points;
 
 public class Point3D implements Point {
     private double x;
@@ -33,5 +33,10 @@ public class Point3D implements Point {
 
     public void setZ(double z) {
         this.z = z;
+    }
+
+    @Override
+    public String print() {
+        return "(" + getX() + ", " + getY() + ", " + getZ() +")";
     }
 }

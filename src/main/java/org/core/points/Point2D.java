@@ -1,4 +1,4 @@
-package org.example.points;
+package org.core.points;
 
 public class Point2D implements Point {
     private double x;
@@ -23,5 +23,10 @@ public class Point2D implements Point {
 
     public void setY(double y) {
         this.y = y;
+    }
+
+    @Override
+    public String print() {
+        return "(" + getX() + ", " + getY() + ")";
     }
 }

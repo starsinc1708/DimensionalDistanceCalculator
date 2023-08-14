@@ -1,9 +1,10 @@
-package org.example.calculators;
+package org.core.distance_calculators;
 
-import org.example.points.Point;
-import org.example.points.Point2D;
+import org.core.points.Point;
+import org.core.points.Point2D;
 
 public class DistanceCalculator2D implements DistanceCalculator {
+
     @Override
     public double calculateDistance(Point point1, Point point2) {
         if (point1 instanceof Point2D && point2 instanceof Point2D) {

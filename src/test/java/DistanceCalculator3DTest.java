@@ -1,9 +1,8 @@
-import org.example.calculators.DistanceCalculator;
-import org.example.calculators.DistanceCalculator2D;
-import org.example.calculators.DistanceCalculator3D;
-import org.example.points.Point;
-import org.example.points.Point2D;
-import org.example.points.Point3D;
+import org.core.distance_calculators.DistanceCalculator;
+import org.core.distance_calculators.DistanceCalculator3D;
+import org.core.points.Point;
+import org.core.points.Point2D;
+import org.core.points.Point3D;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
