@@ -15,8 +15,10 @@
         <property name="hibernate.show_sql">true</property>
         <property name="default_schema">points_log</property>
         <property name="show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
 
-        <mapping class="org.core.entity.DistanceLog"/>
+        <mapping class="org.logic.entity.DistanceLog"/>
 
     </session-factory>
 

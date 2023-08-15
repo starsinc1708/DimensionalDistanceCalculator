@@ -1,0 +1,10 @@
+<points>
+    <pair>
+        <point type="2D" x="0" y="0"/>
+        <point type="2D" x="3" y="4"/>
+    </pair>
+    <pair>
+        <point type="3D" x="1" y="2" z="3"/>
+        <point type="3D" x="4" y="6" z="8"/>
+    </pair>
+</points>

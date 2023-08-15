@@ -31,7 +31,7 @@ test {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'org.application.DistanceCalculatorApp'
+        attributes 'Main-Class': 'org.DistanceCalculatorApp'
     }
     duplicatesStrategy 'exclude'
     from {
